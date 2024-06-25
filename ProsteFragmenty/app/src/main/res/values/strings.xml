@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">ProsteFragmenty</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="tekst_fl_a">Tekst do fragmentu 2</string>
-    <string name="klawisz_fl_a">WYŚLIJ</string>
-    <string name="tekst_f2_a">Tekst od fragmentu 1</string>
-</resources>
