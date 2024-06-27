@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".HistoryActivity">
+
+    <TextView
+        android:id="@+id/textViewHistoryTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Historia Gdyni"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewHistoryDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gdynia, młode miasto z bogatą historią, rozwijało się dynamicznie od lat 20. XX wieku. Port morski i nowoczesne budownictwo sprawiły, że stała się ważnym ośrodkiem gospodarczym i turystycznym. W czasie II wojny światowej miasto ucierpiało, ale szybko się odbudowało, stając się symbolem nowoczesności i sukcesu."
+        android:textSize="16sp"
+        android:paddingBottom="16dp"/>
+
+</LinearLayout>

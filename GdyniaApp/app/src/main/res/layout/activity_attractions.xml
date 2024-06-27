@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewAttractions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Attractions Activity"
+        android:textSize="24sp"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/buttonMoreInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="More Info" />
+
+    <Button
+        android:id="@+id/buttonAttractions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Attractions" />
+
+    <Button
+        android:id="@+id/buttonHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="History" />
+
+    <!-- Kontener na fragmenty -->
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>
